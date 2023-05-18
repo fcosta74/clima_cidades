@@ -5,7 +5,7 @@
   font-family: "Ubuntu", sans-serif;
 }
 body{
-  background-image: url(/img/bg-weather.jpg);
+  background: linear-gradient(180deg, #ea03ff 0%, #0097ff 100%);
   display: flex;
   justify-content: center;
   align-items: center;
