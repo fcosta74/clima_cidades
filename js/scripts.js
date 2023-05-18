@@ -1,5 +1,3 @@
-// https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=7da5d9543c4e87187fcfd9d882d9c9a2  
-
 const apikey = "7da5d9543c4e87187fcfd9d882d9c9a2"
 const apiCountryURL = "https://flagsapi.com/png/"
 const apiUnsplash = "https://source.unsplash.com/1600x900/?"
