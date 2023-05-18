@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
   <script src="js/scripts.js" defer></script>
-  <link rel="stylesheet" href="css/styles.css">  
   <link rel="shortcut icon" href="img/fcs.ico" type="image/x-icon">
   <title>Clima agora!</title>
   <!-- fontes -->
@@ -20,7 +20,7 @@
     <div class="form">
       <h3>Confira o clima de uma cidade:</h3>
       <div class="form-input-container">
-        <input type="text" placeholder="Digite o nome da ciade" id="city-input">
+        <input type="text" placeholder="Digite o nome da cidade" id="city-input">
         <button id="search">
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
@@ -33,10 +33,10 @@
         <img id="country" src="" alt="Bandeira do país"></img>
       </h2>
       <p id="temperature"><span></span>&deg;C</p>
-      <p id="feels-like">Sensação térmica:<span></span>&deg; C</p>
+      <p id="feels-like">Sensação térmica:<span></span>&deg;C</p>
       <div id="description-container">
         <p id="description"></p>
-        <img src="" alt="Condições do tempo" id="weather-icon">
+        <img id="weather-icon" src="" alt="Condições do tempo" >
       </div>
       <div id="details-container">
         <p id="humidity">
